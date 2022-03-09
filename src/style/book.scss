@@ -1,0 +1,35 @@
+.book-container {
+    font-family: 'Fredoka', sans-serif;
+    margin: 20px;
+    background-color: #f4f2f7;
+    border-radius: 8px;
+    border: 2px solid #b4a6c9;
+    padding: 0px 25px 10px 25px;
+
+
+    .btn-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px;
+        width: 85%;
+
+        .btn {
+            font-family: 'Caveat', cursive;
+            font-size: 18px;
+            background-color: #bfb3d0;
+            border: 1px solid transparent;
+            text-shadow: 1px 1px 2px transparent;
+            border-radius: 4px;
+            transition: 0.2s ease-in-out;
+            width: 55px;
+            height: 30px;
+
+            &:hover {
+                color: #f4f2f7;
+                border: 1px solid #453659;
+                text-shadow: 1px 1px 2px #453659;
+            }
+        }
+    }
+}
