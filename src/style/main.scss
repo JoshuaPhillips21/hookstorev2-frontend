@@ -11,6 +11,7 @@ html, body {
     align-items: center;
 }
 
+@import './mixin.scss';
 @import "./navBar.scss";
 @import "./home.scss";
 @import './add-book.scss';
